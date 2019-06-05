@@ -48,7 +48,7 @@
 ### ABSTRACT FACTORY
 
 * 目的 : 提供一个接口,可以创建一系列对象.创建一系列对象时无需指定具体的类.
-* 使用场景 : 隐藏创建一系列对象的细节
+* 使用场景 : 只需要提供一系列对象给调用者而无需让调用者直到创建一系列对象的细节
 * 结构
   
 ![ABSTRACT FACTORY](./img/abstract-factory.png)
@@ -67,6 +67,15 @@
   * 也可以每个系列的 `Product` 对应一个类型的 `ConcreteFactory` (`Factory Method`)
 
 ### BUILDER
+
+* 目的 : 复杂对象的构造过程和表示分离
+* 使用场景 : 构造过程复杂,并且希望通过可选的步骤一步步构造构造可以具有不同的表示的实例.
+* 结构
+
+![BUILDER](./img/builder.png)
+
+* 效果 : 明确的控制和改变对象的表示
+* 其他说明 : 着重于一步步构造一个复杂对象
 
 ### FACTORY METHOD
 
