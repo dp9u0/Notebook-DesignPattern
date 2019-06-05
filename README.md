@@ -74,10 +74,23 @@
 
 ![BUILDER](./img/builder.png)
 
+`Client` 通过 调用 `Builder`实例(`_builder`) 的 `BuildPart` 方法 提供构造需要的参数,最终通过 `GetResult` 获取 `Product`
+
 * 效果 : 明确的控制和改变对象的表示
 * 其他说明 : 着重于一步步构造一个复杂对象
 
 ### FACTORY METHOD
+
+* 目的 : 定义一个用于创建对象的接口,让子类决定实例化哪一个类
+* 使用场景 : 基类中使用的一个类的实例化延迟到子类
+* 结构
+
+![FACTORY METHOD](./img/factory-method.png)
+
+工厂方法指的是定义的抽象方法 `FactoryMethod` 用于获取实例
+
+* 效果 : 为子类提供了Hook
+* 其他说明 : 工厂方法其实是模版方法的一个用于构造对象的特例
 
 ### PROTOTYPE
 
@@ -122,3 +135,12 @@
 ### TEMPLATE METHOD
 
 ### VISITOR
+
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
