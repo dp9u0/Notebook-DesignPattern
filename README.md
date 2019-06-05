@@ -140,7 +140,7 @@
 通过构造时定义 impl 将接口抽象部分(`Abstartion`)和实现(`Implementor`)分离.
 
 * 效果 : 分离接口及其实现部分 提高可扩充性 实现细节对Client 透明
-* 其他说明 : 可以使用 Abstrator Factory 模式来创建和配置一个特定的 Implementor 模式.
+* 其他说明 : 可以使用 Abstrator Factory 模式来创建和配置一个特定的 Implementor.
 
 ### COMPOSITE
 
