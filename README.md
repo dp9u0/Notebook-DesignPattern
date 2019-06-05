@@ -144,14 +144,14 @@
 
 ### COMPOSITE
 
-* 目的 :
-* 使用场景 :
+* 目的 : 将对象组合成树形结构以表示'部分-整体'的层次结构
+* 使用场景 : 表示对象的部分-整体层次结构
 * 结构
 
-![TITLE](./img/image.png)
+![COMPOSITE](./img/composite.png)
 
-* 效果 :
-* 其他说明 :
+* 效果 : 客户可以一致地使用组合结构和单个对象,更容易增加新的类型(派生 `Leaf`或者派生 `Composite`)
+* 其他说明 : UI 架构(WPF Winform Html) 几乎都会使用 COMPOSITE 模式
 
 ### DECORATOR
 
