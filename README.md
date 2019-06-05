@@ -144,35 +144,170 @@
 
 ### COMPOSITE
 
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
+
 ### DECORATOR
+
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
 
 ### FACADE
 
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
+
 ### FLYWEIGHT
 
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
+
 ### PROXY
+
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
 
 ## 行为
 
 ### CHAIN OF RESPONSIBILITY
 
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
+
 ### COMMAND
+
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
 
 ### INTERPRETER
 
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
+
 ### ITERATOR
+
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
 
 ### MEDIATOR
 
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
+
 ### MEMENTO
+
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
 
 ### OBSERVER
 
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
+
 ### STATE
+
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
 
 ### STRATEGY
 
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
+
 ### TEMPLATE METHOD
+
+* 目的 :
+* 使用场景 :
+* 结构
+
+![TITLE](./img/image.png)
+
+* 效果 :
+* 其他说明 :
 
 ### VISITOR
 
