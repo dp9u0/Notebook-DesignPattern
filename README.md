@@ -307,14 +307,14 @@ Decorator 将请求转发给它的 Component 对象,并有可以在转发请求�
 
 ### TEMPLATE METHOD
 
-* 目的 :
-* 使用场景 :
+* 目的 : 定义一个操作中的算法的骨架,而将一些步骤延迟到子类中
+* 使用场景 : 一次性实现一个算法的不变的部分,并将可变的行为留给子类来实现 (Hook)
 * 结构
 
-![TITLE](./img/image.png)
+![TEMPLATE METHOD](./img/template-method.png)
 
-* 效果 :
-* 其他说明 :
+* 效果 : 提取了类库中的公共行为
+* 其他说明 : 模板方法导致一种反向的控制结构,这种结构有时被称为"好莱坞法则",即"别找我们,我们找你"
 
 ### VISITOR
 
@@ -322,7 +322,7 @@ Decorator 将请求转发给它的 Component 对象,并有可以在转发请求�
 * 使用场景 :
 * 结构
 
-![TITLE](./img/image.png)
+![VISITOR](./img/visitor.png)
 
 * 效果 :
 * 其他说明 :
