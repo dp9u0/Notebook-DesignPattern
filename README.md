@@ -230,13 +230,13 @@ Decorator 将请求转发给它的 Component 对象,并有可以在转发请求�
 
 ### INTERPRETER
 
-* 目的 :
-* 使用场景 :
+* 目的 : 用来解释语言中的句子
+* 使用场景 : 解释语言
 * 结构
 
-![TITLE](./img/image.png)
+![INTERPRETER](./img/interpreter.png)
 
-* 效果 :
+* 效果 : 易于改变和扩展文法
 * 其他说明 :
 
 ### ITERATOR
