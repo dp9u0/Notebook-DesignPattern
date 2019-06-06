@@ -241,14 +241,14 @@ Decorator 将请求转发给它的 Component 对象,并有可以在转发请求�
 
 ### ITERATOR
 
-* 目的 :
-* 使用场景 :
+* 目的 : 提供一种方法顺序访问一个聚合对象中各个元素 而又不需暴露该对象的内部表示
+* 使用场景 : 访问内容(统一访问接口)
 * 结构
 
-![TITLE](./img/image.png)
+![ITERATOR](./img/iterator.png)
 
-* 效果 :
-* 其他说明 :
+* 效果 : 遍历内容 统一接口 在同一个聚合上可以有多个遍历
+* 其他说明 : 为了支持多个遍历 每次获取 Iterator 都返回新的 Iterator, Iterator 负责维护访问状态(currentIndex)等
 
 ### MEDIATOR
 
