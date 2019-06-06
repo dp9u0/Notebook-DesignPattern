@@ -203,14 +203,17 @@ Decorator 将请求转发给它的 Component 对象,并有可以在转发请求�
 
 ### CHAIN OF RESPONSIBILITY
 
-* 目的 :
+* 目的 : 使多个对象都有机会处理请求,从而避免请求的发送者和接收者之间的耦合关系.将这些对象连成一条链,并沿着这条链传递该请求,直到有一个对象处理它为止.
 * 使用场景 :
+  * 有多个的对象可以处理一个请求哪个对象处理该请求运行时刻自动确定
+  * 不明确指定接收者的情况下,向多个对象中的一个提交一个请求
+  * 处理请求的对象集合应被动态指定
 * 结构
 
-![TITLE](./img/image.png)
+![CHAIN OF RESPONSIBILITY](./img/chain-of-responsibility.png)
 
-* 效果 :
-* 其他说明 :
+* 效果 : 解耦发送者和接受者
+* 其他说明 : .Net 的委托是一个 CHAIN OF RESPONSIBILITY的实现 (只是传递的请求会被处理链上所有的委托处理,CHAIN OF RESPONSIBILITY 最本质特点是接收者链 和向后继者消息传递)
 
 ### COMMAND
 
