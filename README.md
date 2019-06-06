@@ -296,13 +296,13 @@ Decorator 将请求转发给它的 Component 对象,并有可以在转发请求�
 
 ### STRATEGY
 
-* 目的 :
-* 使用场景 :
+* 目的 : 算法可独立于使用它的客户而变化
+* 使用场景 : 使用不同算法
 * 结构
 
-![TITLE](./img/image.png)
+![STRATEGY](./img/strategy.png)
 
-* 效果 :
+* 效果 : 相关算法系列 消除条件语句
 * 其他说明 :
 
 ### TEMPLATE METHOD
