@@ -218,13 +218,15 @@ Decorator 将请求转发给它的 Component 对象,并有可以在转发请求�
 ### COMMAND
 
 * 目的 :
-* 使用场景 :
+* 使用场景 : COMMAND模式是回调机制的一个面向对象的替代品
 * 结构
 
-![TITLE](./img/image.png)
+![COMMAND](./img/command.png)
 
-* 效果 :
-* 其他说明 :
+![COMMAND SQUENCE DIAGRAM](./img/command_sd.png)
+
+* 效果 : 调用操作的对象(`Invoker`)与知道如何实现该操作的对象(`Receiver`)解耦
+* 其他说明 : Undo Redo
 
 ### INTERPRETER
 
