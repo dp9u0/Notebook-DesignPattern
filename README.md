@@ -263,14 +263,14 @@ Decorator 将请求转发给它的 Component 对象,并有可以在转发请求�
 
 ### MEMENTO
 
-* 目的 :
-* 使用场景 :
+* 目的 : 在不破坏封装性的前提下,捕获一个对象的内部状态,并在该对象之外保存这个状态.这样以后就可将该对象恢复到原先保存的状态
+* 使用场景 : 状态保存和恢复
 * 结构
 
-![TITLE](./img/image.png)
+![MEMENTO](./img/memento.png)
 
-* 效果 :
-* 其他说明 :
+* 效果 : 保持封装边界 开销
+* 其他说明 : Caretaker 负责管理 从 `Originator` 获取 `Memento`, 管理 `Memento` , 通过 `Memento` 恢复 `Originator` 的状态
 
 ### OBSERVER
 
